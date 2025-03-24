@@ -1,21 +1,31 @@
 ul {
     list-style-type: none;
+
 }
 
-h3 {
-    margin: 20px 30px;
+
+.header, .footer {
+    background-color: rgba(31,41,55,255);
+}
+
+h3 , h1 , a, .footer p, .header p{
     color:white;
 }
 
-.header {
-    background-color: rgb(46, 46, 68);
+p {
+    color:rgba(137,144,153,255);
 }
 
 
+a {
+    text-decoration: none;
+}
 
 
-
-
+.quote {
+    background-color: rgba(229,231,235,255);
+    
+}
 
 
 
@@ -40,7 +50,9 @@ h3 {
 body {
     display:flex;
     flex-direction: column;
-    flex:1;
+    justify-content: space-between;
+    gap:30px;
+    margin: 0;
 }
 
 .header {
@@ -48,6 +60,7 @@ body {
     flex-direction: column;
     justify-content:space-between;
     gap:20px;
+    padding: 0px 90px 50px;
 }
 
 .toplinks {
@@ -59,4 +72,25 @@ ul {
     display:flex;
     justify-content: space-between;
     gap:20px
+}
+
+.head {
+    display:flex;
+    justify-content: space-between;
+    gap:50px;
+}
+
+.title {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer {
+    display:flex;
+    justify-content:center;
+}
+
+.quote {
+    
 }
