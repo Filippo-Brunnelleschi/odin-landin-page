@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    margin: 20px 30px;
+    color:white;
+}
+
+.header {
+    background-color: rgb(46, 46, 68);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------FLEXBOX----------------------------*/
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.header {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.toplinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display:flex;
+    justify-content: space-between;
+    gap:20px
+}
