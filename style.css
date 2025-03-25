@@ -12,8 +12,14 @@ h3 , h1 , a, .footer p, .header p{
     color:white;
 }
 
+.information h1 {
+    color:black;
+
+}
+
 p {
     color:rgba(137,144,153,255);
+    font-size:18px;
 }
 
 
@@ -27,8 +33,23 @@ a {
     
 }
 
+h1 {
+    font-size:48px;
+    font-weight:900;
+}
 
+h3 {
+    font-size:24px;
+}
 
+button {
+    background-color: #3882F6;
+    color:white;
+    padding:8px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
 
 
 
@@ -91,6 +112,30 @@ ul {
     justify-content:center;
 }
 
+.information {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:30px;
+}
+
+.illustration {
+    display:flex;
+    justify-content: space-evenly;
+    gap:30px;
+    padding:30px;
+}
+
 .quote {
-    
+    display:flex;
+    justify-content: center;
+}
+
+.from {
+    padding:0px 30px;
+    margin-top:40px;
+}
+
+.quote p {
+    max-width: 500px;
 }
