@@ -8,7 +8,7 @@ ul {
     background-color: rgba(31,41,55,255);
 }
 
-h3 , h1 , a, .footer p, .header p{
+h3 , h1 , a, .footer p, .header p, .sign_up p{
     color:white;
 }
 
@@ -51,11 +51,18 @@ button {
     border: none;
 }
 
+.sign_up {
+    background-color:#3882F6;
+}
 
+.sign_up p {
+    font-size: 12px;
+}
 
-
-
-
+.sign button {
+    border: 1px solid white;
+    margin-top:20px;
+}
 
 
 
@@ -138,4 +145,17 @@ ul {
 
 .quote p {
     max-width: 500px;
+}
+
+.sign_up {
+    display:flex;
+    align-items: center;
+    padding:0px 30px 30px;
+    border-radius: 10px;
+}
+
+.sign {
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
